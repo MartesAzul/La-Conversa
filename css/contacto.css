@@ -33,7 +33,12 @@
 
           a {
             text-decoration: none;
-            color:rgb(58, 103, 185);
+            color: #701377;
+            text-indent: 5px;
+          }
+
+          p {
+            text-indent: 5px;
           }
       
           #Cabecera {
@@ -95,7 +100,15 @@
               inline-size: 850px;
               block-size: auto;
               background: radial-gradient(#edf6e5, #dceecc, #afa);
-              color: #0050aa;
+              color: #701377;
               text-indent: 15px;
               font-size: larger;
+              text-align: center;
+          }
+
+          .iconosContacto {
+            width: 50px;
+            height: 50px;
+            padding: 5px;
+            margin: auto;
           }

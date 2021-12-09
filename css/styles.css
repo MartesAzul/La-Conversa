@@ -1,4 +1,6 @@
-    /*CSS RESET de josh w comeau*/
+@import url(./propuestas.css);
+
+/*CSS RESET de josh w comeau*/
     *, *::before, *::after {
         box-sizing: border-box;
       }
@@ -82,49 +84,4 @@
               background-color: #50aa00;
               color: #fff; 
               font-size: 16px;
-          }
-          .propuestas {
-            border-color: #666;
-            border-width: 2px;
-            border-style: ridge;
-            border-radius: 5%;
-            background-color: #cfc;
-            padding: 10px 5px 25px 5px;
-            margin: 20px 500px 10px 30px;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            font-size: 18px;
-            text-align: center;
-            transform: skewX(1deg);
-          }
-          .thumbsup {
-            width: 20px;
-            height: 20px;
-            position: absolute;
-            right: 5px;
-            top: 5px;
-            border-color: #000;
-            border-width: 1px;
-            border-radius: 5%;
-            border-style: solid;
-            background-color: #50aa00;
-            opacity: 40%;
-          }
-          .thumbsup:hover {
-            opacity: 100%;
-          }
-          .thumbsdown {
-            width: 20px;
-            height: 20px;
-            position: absolute;
-            right: 5px;
-            top: 33px;
-            border-color: #000;
-            border-width: 1px;
-            border-radius: 5%;
-            border-style: solid;
-            background-color: #cc6696;
-            opacity: 40%;
-          }
-          .thumbsdown:hover {
-            opacity: 100%;
           }
